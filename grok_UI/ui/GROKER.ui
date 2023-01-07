@@ -1,0 +1,3261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1157</width>
+    <height>794</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>23</width>
+    <height>23</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_16">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="minimumSize">
+       <size>
+        <width>981</width>
+        <height>551</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#frame{
+ background:url(:/新前缀/背景.png);
+ border-radius:15px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_15">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_down">
+         <layout class="QHBoxLayout" name="horizontalLayout_14">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_choice">
+            <property name="minimumSize">
+             <size>
+              <width>152</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QFrame{
+	background-color: rgb(36, 38, 58);
+	border-bottom-left-radius:15px;
+}</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QWidget" name="">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>10</y>
+               <width>122</width>
+               <height>114</height>
+              </rect>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_4">
+              <item>
+               <widget class="QFrame" name="frame_5">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_2">
+                 <item>
+                  <widget class="QPushButton" name="pushButton_min">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>500</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{
+border:none;
+}
+QPushButton:hover
+{
+padding-bottom:5px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="../res1/res.qrc">
+                     <normaloff>:/图标/最小化2-02.png</normaloff>:/图标/最小化2-02.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>24</width>
+                     <height>24</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_max">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{
+border:none;
+}
+QPushButton:hover
+{
+padding-bottom:5px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="../res1/res.qrc">
+                     <normaloff>:/图标/24.全屏_最大化.png</normaloff>:/图标/24.全屏_最大化.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>23</width>
+                     <height>23</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_close">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">QPushButton{
+border:none;
+}
+QPushButton:hover
+{
+padding-bottom:5px;
+}</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="icon">
+                    <iconset resource="../res1/res.qrc">
+                     <normaloff>:/图标/关闭.png</normaloff>:/图标/关闭.png</iconset>
+                   </property>
+                   <property name="iconSize">
+                    <size>
+                     <width>25</width>
+                     <height>25</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_view">
+                <property name="font">
+                 <font>
+                  <family>Microsoft YaHei UI</family>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+	background-color: rgba(0, 0, 0, 0);
+	color:rgb(255,255,255);
+	border-radius:5px;
+	border:none;
+}
+QPushButton:hover {
+	background-color: rgb(29,30,44);
+padding-bottom:5px;
+}
+QPushButton:checked{
+    background-color: rgb(29,30,44);
+}</string>
+                </property>
+                <property name="text">
+                 <string>  动画浏览</string>
+                </property>
+                <property name="icon">
+                 <iconset resource="../res1/res.qrc">
+                  <normaloff>:/图标/显示.png</normaloff>:/图标/显示.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>22</width>
+                  <height>22</height>
+                 </size>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+                <property name="checked">
+                 <bool>true</bool>
+                </property>
+                <property name="autoExclusive">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_settings">
+                <property name="font">
+                 <font>
+                  <family>Microsoft YaHei UI</family>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+	background-color: rgba(0, 0, 0, 0);
+	color:rgb(255,255,255);
+	border-radius:5px;
+	border:none;
+}
+QPushButton:hover {
+	background-color: rgb(29,30,44);
+padding-bottom:5px;
+}
+QPushButton:checked{
+    background-color: rgb(29,30,44);
+}</string>
+                </property>
+                <property name="text">
+                 <string>  设置       </string>
+                </property>
+                <property name="icon">
+                 <iconset resource="../res1/res.qrc">
+                  <normaloff>:/图标/设置2.png</normaloff>:/图标/设置2.png</iconset>
+                </property>
+                <property name="iconSize">
+                 <size>
+                  <width>22</width>
+                  <height>22</height>
+                 </size>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+                <property name="checked">
+                 <bool>false</bool>
+                </property>
+                <property name="autoExclusive">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_16">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_8">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QStackedWidget" name="stackedWidget">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgba(0,0,0,0);
+</string>
+                </property>
+                <property name="currentIndex">
+                 <number>0</number>
+                </property>
+                <widget class="QWidget" name="page_view">
+                 <layout class="QGridLayout" name="gridLayout_2">
+                  <item row="1" column="0">
+                   <widget class="QStackedWidget" name="stackedWidget_2">
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton {	
+
+
+	border:none;
+	
+	border-radius: 6px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(57, 63, 103);
+}
+QPushButton:hover {
+	background-color: rgb(38, 43, 85);
+}
+QPushButton:checked{
+    background-color: rgb(33, 33, 33);
+border-bottom: 2px solid;
+border-color: #598FDC;
+}</string>
+                    </property>
+                    <property name="currentIndex">
+                     <number>0</number>
+                    </property>
+                    <widget class="QWidget" name="page">
+                     <layout class="QVBoxLayout" name="verticalLayout">
+                      <item>
+                       <widget class="QPushButton" name="pushButton_5">
+                        <property name="minimumSize">
+                         <size>
+                          <width>100</width>
+                          <height>50</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string>PushButton</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="pushButton_4">
+                        <property name="minimumSize">
+                         <size>
+                          <width>100</width>
+                          <height>50</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string>PushButton</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </widget>
+                  </item>
+                  <item row="1" column="1">
+                   <widget class="QFrame" name="frame_animation">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                      <horstretch>1</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QFrame{
+	background-color: rgb(36,38,58);
+	border-radius:10px;
+}</string>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QVBoxLayout" name="verticalLayout_10">
+                     <item>
+                      <widget class="QLabel" name="label_2">
+                       <property name="text">
+                        <string/>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QSlider" name="horizontalSlider">
+                       <property name="styleSheet">
+                        <string notr="true">QSlider::groove:horizontal { 
+	border: 1px solid gray;
+	height: 2px; 
+	left: 8px; 
+	right: 8px; 
+} 
+
+QSlider::handle:horizontal { 
+	border: 1px solid gray; 
+	background:white;
+	border-radius: 5px;
+	width: 10px; 
+	height: 10px; 
+	margin: -5px; 
+} 
+
+QSlider::add-page:horizontal{ 
+	background: rgb(189, 189, 189); 
+} 
+QSlider::sub-page:horizontal{ 
+	background: rgb(80, 165, 245); 
+}
+</string>
+                       </property>
+                       <property name="orientation">
+                        <enum>Qt::Horizontal</enum>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QFrame" name="frame_vedio">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <layout class="QHBoxLayout" name="horizontalLayout_17">
+                        <item>
+                         <widget class="QLabel" name="label">
+                          <property name="font">
+                           <font>
+                            <family>Microsoft YaHei UI</family>
+                            <pointsize>9</pointsize>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QLabel{
+border: 0px solid;
+border-color: #598FDC;
+background-color:rgba(0,0,0,0);
+color:white;
+}</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="pushButton_back">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="minimumSize">
+                           <size>
+                            <width>35</width>
+                            <height>35</height>
+                           </size>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Microsoft YaHei UI</family>
+                            <pointsize>10</pointsize>
+                            <weight>75</weight>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QPushButton {	
+	border: 0px solid;
+	border-color: #598FDC;
+	border-radius: 6px;
+	color: rgb(255, 255, 255);
+	background-color: transparent;
+}
+QPushButton:hover {
+	background-color: rgb(38, 43, 85);
+}
+QPushButton:pressed {	
+	background-color: transparent;
+}</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="icon">
+                           <iconset resource="../res1/res.qrc">
+                            <normaloff>:/图标/快退.png</normaloff>:/图标/快退.png</iconset>
+                          </property>
+                          <property name="iconSize">
+                           <size>
+                            <width>32</width>
+                            <height>32</height>
+                           </size>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="pushButton_stop">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="minimumSize">
+                           <size>
+                            <width>70</width>
+                            <height>35</height>
+                           </size>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Microsoft YaHei UI</family>
+                            <pointsize>10</pointsize>
+                            <weight>75</weight>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QPushButton {	
+	border: 0px solid;
+	border-color: #598FDC;
+	border-radius: 6px;
+	color: rgb(255, 255, 255);
+	background-color: transparent;
+}
+QPushButton:hover {
+	background-color: rgb(38, 43, 85);
+}
+QPushButton:pressed {	
+	background-color: transparent;
+}</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="icon">
+                           <iconset resource="../res1/res.qrc">
+                            <normaloff>:/图标/24gf-pause2.png</normaloff>:/图标/24gf-pause2.png</iconset>
+                          </property>
+                          <property name="iconSize">
+                           <size>
+                            <width>32</width>
+                            <height>32</height>
+                           </size>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QPushButton" name="pushButton_forward">
+                          <property name="sizePolicy">
+                           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                           </sizepolicy>
+                          </property>
+                          <property name="minimumSize">
+                           <size>
+                            <width>35</width>
+                            <height>35</height>
+                           </size>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <family>Microsoft YaHei UI</family>
+                            <pointsize>10</pointsize>
+                            <weight>75</weight>
+                            <bold>true</bold>
+                           </font>
+                          </property>
+                          <property name="styleSheet">
+                           <string notr="true">QPushButton {	
+	border: 0px solid;
+	border-color: #598FDC;
+	border-radius: 6px;
+	color: rgb(255, 255, 255);
+	background-color: transparent;
+}
+QPushButton:hover {
+	background-color: rgb(38, 43, 85);
+}
+QPushButton:pressed {	
+	background-color: transparent;
+}</string>
+                          </property>
+                          <property name="text">
+                           <string/>
+                          </property>
+                          <property name="icon">
+                           <iconset resource="../res1/res.qrc">
+                            <normaloff>:/图标/快进.png</normaloff>
+                            <activeon>:/图标/快进.png</activeon>:/图标/快进.png</iconset>
+                          </property>
+                          <property name="iconSize">
+                           <size>
+                            <width>32</width>
+                            <height>32</height>
+                           </size>
+                          </property>
+                         </widget>
+                        </item>
+                        <item>
+                         <widget class="QLabel" name="label_3">
+                          <property name="text">
+                           <string/>
+                          </property>
+                         </widget>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <spacer name="verticalSpacer">
+                       <property name="orientation">
+                        <enum>Qt::Vertical</enum>
+                       </property>
+                       <property name="sizeType">
+                        <enum>QSizePolicy::Fixed</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>20</width>
+                         <height>4</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item row="0" column="0" colspan="2">
+                   <widget class="QFrame" name="frame_4">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="maximumSize">
+                     <size>
+                      <width>16777215</width>
+                      <height>16777215</height>
+                     </size>
+                    </property>
+                    <property name="autoFillBackground">
+                     <bool>false</bool>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QPushButton {	
+
+
+	border:none;
+	
+	border-radius: 6px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(57, 63, 103);
+}
+QPushButton:hover {
+	background-color: rgb(38, 43, 85);
+}
+QPushButton:checked{
+    background-color: rgb(33, 33, 33);
+border-bottom: 2px solid;
+border-color: #598FDC;
+}</string>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QHBoxLayout" name="horizontalLayout">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <widget class="QPushButton" name="pushButton">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>280</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                       <property name="layoutDirection">
+                        <enum>Qt::LeftToRight</enum>
+                       </property>
+                       <property name="text">
+                        <string>代码一</string>
+                       </property>
+                       <property name="checkable">
+                        <bool>true</bool>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="pushButton_2">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>280</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                       <property name="text">
+                        <string>PushButton</string>
+                       </property>
+                       <property name="checkable">
+                        <bool>true</bool>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="pushButton_3">
+                       <property name="minimumSize">
+                        <size>
+                         <width>280</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                       <property name="maximumSize">
+                        <size>
+                         <width>16777215</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                       <property name="text">
+                        <string>加</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                 </layout>
+                 <zorder>frame_4</zorder>
+                 <zorder>stackedWidget_2</zorder>
+                 <zorder>frame_animation</zorder>
+                </widget>
+                <widget class="QWidget" name="page_settings">
+                 <layout class="QHBoxLayout" name="horizontalLayout_15">
+                  <item>
+                   <widget class="QFrame" name="frame_settingleft">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                      <horstretch>1</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>231</width>
+                      <height>411</height>
+                     </size>
+                    </property>
+                    <layout class="QVBoxLayout" name="verticalLayout_2" stretch="3,1,0">
+                     <item>
+                      <layout class="QGridLayout" name="gridLayout" rowstretch="1,1,1" columnstretch="1,1,1">
+                       <property name="leftMargin">
+                        <number>10</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>10</number>
+                       </property>
+                       <property name="horizontalSpacing">
+                        <number>30</number>
+                       </property>
+                       <property name="verticalSpacing">
+                        <number>25</number>
+                       </property>
+                       <item row="0" column="0" rowspan="3">
+                        <widget class="QFrame" name="frame_nodeset">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>231</width>
+                           <height>0</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QFrame{
+ border:2px solid;
+	border-color: rgb(5, 32, 56);
+	background-color: rgb(36,38,58);
+border-radius:10px;
+}
+QComboBox QAbstractItemView{
+outline: 0px solid gray;            
+/*border:1px solid #eeeeee;*/            
+color:rgb(145,151,163);
+selection-color:white;
+font-size:14px;
+font-family:Microsoft YaHei UI;            
+background-color:rgb(18,26,39);
+selection-background-color:rgb(33,41,54);
+border-top-radius:0px;
+border-bottom-radius:10px;
+}</string>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                         <layout class="QVBoxLayout" name="verticalLayout_7">
+                          <item alignment="Qt::AlignLeft|Qt::AlignTop">
+                           <widget class="QLabel" name="label_node">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <family>Microsoft YaHei UI</family>
+                              <pointsize>12</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QLabel{
+border:none;
+color:#598FDC;
+}</string>
+                            </property>
+                            <property name="text">
+                             <string>节点设置</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QFrame" name="frame_selectnode">
+                            <property name="styleSheet">
+                             <string notr="true">border:none;
+</string>
+                            </property>
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_10">
+                             <property name="spacing">
+                              <number>6</number>
+                             </property>
+                             <property name="leftMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="topMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="rightMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="bottomMargin">
+                              <number>0</number>
+                             </property>
+                            </layout>
+                           </widget>
+                          </item>
+                          <item>
+                           <widget class="QScrollArea" name="scrollArea">
+                            <property name="styleSheet">
+                             <string notr="true">QScrollArea{
+border:none;
+background-color:transparent;
+}
+QScrollArea QScrollBar:vertical{width:8px;
+         background:transparent;
+margin:0px,1px,0px,1px;
+    padding-top:0px;
+padding-bottom:0px;
+border-radius:4px;}
+QScrollArea QScrollBar::handle:vertical{
+background:rgb(61,67,79);
+   border-radius:4px;}
+QScrollArea QScrollBar::handle:vertical:hover{
+background:rgb(212,216,228);
+border-radius:4px;}
+QScrollArea QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical{
+background:transparent;
+border-radius:4px;}/*设置滑块滑动后一端槽的背景透明*/
+QScrollArea QScrollBar::add-line:vertical,QScrollBar::sub-line:vertical{
+ height:0px;width:0px;};/*去掉上下箭头*/
+</string>
+                            </property>
+                            <property name="verticalScrollBarPolicy">
+                             <enum>Qt::ScrollBarAsNeeded</enum>
+                            </property>
+                            <property name="horizontalScrollBarPolicy">
+                             <enum>Qt::ScrollBarAsNeeded</enum>
+                            </property>
+                            <property name="widgetResizable">
+                             <bool>true</bool>
+                            </property>
+                            <widget class="QWidget" name="scrollAreaWidgetContents">
+                             <property name="geometry">
+                              <rect>
+                               <x>0</x>
+                               <y>0</y>
+                               <width>197</width>
+                               <height>225</height>
+                              </rect>
+                             </property>
+                             <layout class="QVBoxLayout" name="verticalLayout_9">
+                              <item>
+                               <widget class="QPushButton" name="pushButton_vector">
+                                <property name="sizePolicy">
+                                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                                  <horstretch>0</horstretch>
+                                  <verstretch>0</verstretch>
+                                 </sizepolicy>
+                                </property>
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>0</width>
+                                  <height>35</height>
+                                 </size>
+                                </property>
+                                <property name="font">
+                                 <font>
+                                  <family>Microsoft YaHei UI</family>
+                                  <pointsize>10</pointsize>
+                                  <weight>50</weight>
+                                  <bold>false</bold>
+                                 </font>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QPushButton{
+	background-color: rgba(0, 0, 0, 0);
+	color:rgb(255,255,255);
+	border-radius:5px;
+	border:none;
+}
+QPushButton:hover {
+	background-color: rgb(29,30,44);
+padding-bottom:5px;
+}
+QPushButton:checked{
+    background-color: #e8ccc7;
+}</string>
+                                </property>
+                                <property name="text">
+                                 <string>Vector</string>
+                                </property>
+                                <property name="checkable">
+                                 <bool>true</bool>
+                                </property>
+                                <property name="checked">
+                                 <bool>true</bool>
+                                </property>
+                                <property name="autoExclusive">
+                                 <bool>false</bool>
+                                </property>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QPushButton" name="pushButton_stack">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>0</width>
+                                  <height>35</height>
+                                 </size>
+                                </property>
+                                <property name="font">
+                                 <font>
+                                  <family>Microsoft YaHei UI</family>
+                                  <pointsize>10</pointsize>
+                                  <weight>50</weight>
+                                  <bold>false</bold>
+                                 </font>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QPushButton{
+	background-color: rgba(0, 0, 0, 0);
+	color:rgb(255,255,255);
+	border-radius:5px;
+	border:none;
+}
+QPushButton:hover {
+	background-color: rgb(29,30,44);
+padding-bottom:5px;
+}
+QPushButton:checked{
+    background-color: #e8ccc7;
+}</string>
+                                </property>
+                                <property name="text">
+                                 <string>Stack</string>
+                                </property>
+                                <property name="checkable">
+                                 <bool>true</bool>
+                                </property>
+                                <property name="checked">
+                                 <bool>false</bool>
+                                </property>
+                                <property name="autoExclusive">
+                                 <bool>false</bool>
+                                </property>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QPushButton" name="pushButton_heap">
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>0</width>
+                                  <height>35</height>
+                                 </size>
+                                </property>
+                                <property name="font">
+                                 <font>
+                                  <family>Microsoft YaHei UI</family>
+                                  <pointsize>10</pointsize>
+                                  <weight>50</weight>
+                                  <bold>false</bold>
+                                 </font>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QPushButton{
+	background-color: rgba(0, 0, 0, 0);
+	color:rgb(255,255,255);
+	border-radius:5px;
+	border:none;
+}
+QPushButton:hover {
+	background-color: rgb(29,30,44);
+padding-bottom:5px;
+}
+QPushButton:checked{
+    background-color: #e8ccc7;
+}</string>
+                                </property>
+                                <property name="text">
+                                 <string>Heap</string>
+                                </property>
+                                <property name="checkable">
+                                 <bool>true</bool>
+                                </property>
+                                <property name="checked">
+                                 <bool>false</bool>
+                                </property>
+                                <property name="autoExclusive">
+                                 <bool>false</bool>
+                                </property>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QPushButton" name="pushButton_tree">
+                                <property name="sizePolicy">
+                                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                                  <horstretch>0</horstretch>
+                                  <verstretch>0</verstretch>
+                                 </sizepolicy>
+                                </property>
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>0</width>
+                                  <height>35</height>
+                                 </size>
+                                </property>
+                                <property name="font">
+                                 <font>
+                                  <family>Microsoft YaHei UI</family>
+                                  <pointsize>10</pointsize>
+                                  <weight>50</weight>
+                                  <bold>false</bold>
+                                 </font>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QPushButton{
+	background-color: rgba(0, 0, 0, 0);
+	color:rgb(255,255,255);
+	border-radius:5px;
+	border:none;
+}
+QPushButton:hover {
+	background-color: rgb(29,30,44);
+padding-bottom:5px;
+}
+QPushButton:checked{
+    background-color: #e8ccc7;
+}</string>
+                                </property>
+                                <property name="text">
+                                 <string>Tree</string>
+                                </property>
+                                <property name="checkable">
+                                 <bool>true</bool>
+                                </property>
+                                <property name="checked">
+                                 <bool>false</bool>
+                                </property>
+                                <property name="autoExclusive">
+                                 <bool>false</bool>
+                                </property>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QPushButton" name="pushButton_matrix">
+                                <property name="sizePolicy">
+                                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                                  <horstretch>0</horstretch>
+                                  <verstretch>0</verstretch>
+                                 </sizepolicy>
+                                </property>
+                                <property name="minimumSize">
+                                 <size>
+                                  <width>0</width>
+                                  <height>35</height>
+                                 </size>
+                                </property>
+                                <property name="font">
+                                 <font>
+                                  <family>Microsoft YaHei UI</family>
+                                  <pointsize>10</pointsize>
+                                  <weight>50</weight>
+                                  <bold>false</bold>
+                                 </font>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true">QPushButton{
+	background-color: rgba(0, 0, 0, 0);
+	color:rgb(255,255,255);
+	border-radius:5px;
+	border:none;
+}
+QPushButton:hover {
+	background-color: rgb(29,30,44);
+padding-bottom:5px;
+}
+QPushButton:checked{
+    background-color: #e8ccc7;
+}</string>
+                                </property>
+                                <property name="text">
+                                 <string>Matrix</string>
+                                </property>
+                                <property name="checkable">
+                                 <bool>true</bool>
+                                </property>
+                                <property name="checked">
+                                 <bool>false</bool>
+                                </property>
+                                <property name="autoExclusive">
+                                 <bool>false</bool>
+                                </property>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item row="0" column="1">
+                        <widget class="QFrame" name="frame_languageset_2">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>231</width>
+                           <height>101</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QFrame{
+ border:2px solid;
+	border-color: rgb(5, 32, 56);
+	background-color: rgb(36,38,58);
+border-radius:10px;
+}
+QComboBox QAbstractItemView{
+outline: 0px solid gray;            
+/*border:1px solid #eeeeee;*/            
+color:rgb(145,151,163);
+selection-color:white;
+font-size:14px;
+font-family:Microsoft YaHei UI;            
+background-color:rgb(18,26,39);
+selection-background-color:rgb(33,41,54);
+border-top-radius:0px;
+border-bottom-radius:10px;
+}</string>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                         <layout class="QVBoxLayout" name="verticalLayout_8">
+                          <property name="bottomMargin">
+                           <number>9</number>
+                          </property>
+                          <item>
+                           <widget class="QLabel" name="label_language_2">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <family>Microsoft YaHei UI</family>
+                              <pointsize>12</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">
+QLabel{
+border:none;
+color:#598FDC;
+}</string>
+                            </property>
+                            <property name="text">
+                             <string>整体样式</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item alignment="Qt::AlignBottom">
+                           <widget class="QFrame" name="frame_selectlan_2">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="minimumSize">
+                             <size>
+                              <width>0</width>
+                              <height>0</height>
+                             </size>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QFrame{border:none;
+}</string>
+                            </property>
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                            <property name="lineWidth">
+                             <number>0</number>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_9">
+                             <property name="spacing">
+                              <number>0</number>
+                             </property>
+                             <property name="leftMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="topMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="rightMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="bottomMargin">
+                              <number>0</number>
+                             </property>
+                             <item>
+                              <widget class="QComboBox" name="comboBox_yangshi">
+                               <property name="enabled">
+                                <bool>true</bool>
+                               </property>
+                               <property name="sizePolicy">
+                                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                 <horstretch>0</horstretch>
+                                 <verstretch>0</verstretch>
+                                </sizepolicy>
+                               </property>
+                               <property name="minimumSize">
+                                <size>
+                                 <width>103</width>
+                                 <height>41</height>
+                                </size>
+                               </property>
+                               <property name="font">
+                                <font>
+                                 <family>Microsoft YaHei UI</family>
+                                 <pointsize>10</pointsize>
+                                 <weight>75</weight>
+                                 <italic>false</italic>
+                                 <bold>true</bold>
+                                </font>
+                               </property>
+                               <property name="mouseTracking">
+                                <bool>false</bool>
+                               </property>
+                               <property name="tabletTracking">
+                                <bool>false</bool>
+                               </property>
+                               <property name="styleSheet">
+                                <string notr="true">
+QComboBox {
+    border: 0px solid;
+	border-bottom: 2px solid;
+	border-color: #598FDC;
+    border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+    padding: 1px 10px 1px 3px;
+    min-width: 6em;
+	background-color: rgb(57, 63, 103);
+	
+	color: rgb(255, 255, 255);
+	
+}
+
+QComboBox:on { /* shift the text when the popup opens */
+    padding-top: 3px;
+    padding-left: 4px;
+}
+QComboBox::drop-down {
+    /*subcontrol-origin: padding;*/
+    subcontrol-position: top right;
+    width: 40px;
+	height: 39px;
+	border: 0px solid;
+	
+    border-radius: 5px; /* same radius as the QComboBox */
+}
+QComboBox::drop-down:pressed,QComboBox::drop-down:hover {
+	background-color: rgb(38, 43, 85);
+}
+
+QComboBox::down-arrow {
+	
+	image: url(:/图标/下拉选择.png);
+width: 100px;
+height:25px;
+	
+}
+QComboBox::down-arrow:on { /* shift the arrow when popup is open */
+    top: 1px;
+    left: 1px;
+}
+QComboBox::drop-down:editable:on {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #D3D3D3, stop: 0.4 #D8D8D8,
+                                stop: 0.5 #DDDDDD, stop: 1.0 #E1E1E1);
+}
+QComboBox QAbstractItemView{
+outline: 0px solid gray;            
+border:0px solid #eeeeee;            
+color:rgb(145,151,163);
+selection-color:white;
+font-size:14px;
+font-family:Microsoft YaHei UI;            
+background-color:rgb(18,26,39);
+selection-background-color:rgb(33,41,54);
+}</string>
+                               </property>
+                               <property name="editable">
+                                <bool>false</bool>
+                               </property>
+                               <property name="iconSize">
+                                <size>
+                                 <width>9</width>
+                                 <height>9</height>
+                                </size>
+                               </property>
+                               <item>
+                                <property name="text">
+                                 <string/>
+                                </property>
+                               </item>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item row="0" column="2">
+                        <widget class="QFrame" name="frame_theme">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>231</width>
+                           <height>101</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QFrame{
+ border:2px solid;
+	border-color: rgb(5, 32, 56);
+	background-color: rgb(36,38,58);
+border-radius:10px;
+}
+QComboBox QAbstractItemView{
+outline: 0px solid gray;            
+/*border:1px solid #eeeeee;*/            
+color:rgb(145,151,163);
+selection-color:white;
+font-size:14px;
+font-family:Microsoft YaHei UI;            
+background-color:rgb(18,26,39);
+selection-background-color:rgb(33,41,54);
+border-top-radius:0px;
+border-bottom-radius:10px;
+}</string>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                         <layout class="QVBoxLayout" name="verticalLayout_6">
+                          <item alignment="Qt::AlignLeft|Qt::AlignTop">
+                           <widget class="QLabel" name="label_theme">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <family>Microsoft YaHei UI</family>
+                              <pointsize>12</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QLabel{
+border:none;
+color:#598FDC;
+}</string>
+                            </property>
+                            <property name="text">
+                             <string>主题</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item alignment="Qt::AlignBottom">
+                           <widget class="QFrame" name="frame_selecttheme">
+                            <property name="minimumSize">
+                             <size>
+                              <width>0</width>
+                              <height>0</height>
+                             </size>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QFrame{border:none;
+}</string>
+                            </property>
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                            <property name="lineWidth">
+                             <number>0</number>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_7">
+                             <property name="spacing">
+                              <number>0</number>
+                             </property>
+                             <property name="leftMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="topMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="rightMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="bottomMargin">
+                              <number>0</number>
+                             </property>
+                             <item>
+                              <widget class="QComboBox" name="comboBox_theme">
+                               <property name="enabled">
+                                <bool>true</bool>
+                               </property>
+                               <property name="sizePolicy">
+                                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                 <horstretch>0</horstretch>
+                                 <verstretch>0</verstretch>
+                                </sizepolicy>
+                               </property>
+                               <property name="minimumSize">
+                                <size>
+                                 <width>103</width>
+                                 <height>41</height>
+                                </size>
+                               </property>
+                               <property name="font">
+                                <font>
+                                 <family>Microsoft YaHei UI</family>
+                                 <pointsize>10</pointsize>
+                                 <weight>75</weight>
+                                 <italic>false</italic>
+                                 <bold>true</bold>
+                                </font>
+                               </property>
+                               <property name="mouseTracking">
+                                <bool>false</bool>
+                               </property>
+                               <property name="tabletTracking">
+                                <bool>false</bool>
+                               </property>
+                               <property name="styleSheet">
+                                <string notr="true">
+QComboBox {
+    border: 0px solid;
+	border-bottom: 2px solid;
+	border-color: #598FDC;
+    border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+    padding: 1px 10px 1px 3px;
+    min-width: 6em;
+	background-color: rgb(57, 63, 103);
+	
+	color: rgb(255, 255, 255);
+	
+}
+
+QComboBox:on { /* shift the text when the popup opens */
+    padding-top: 3px;
+    padding-left: 4px;
+}
+QComboBox::drop-down {
+    /*subcontrol-origin: padding;*/
+    subcontrol-position: top right;
+    width: 40px;
+	height: 39px;
+	border: 0px solid;
+	
+    border-radius: 5px; /* same radius as the QComboBox */
+}
+QComboBox::drop-down:pressed,QComboBox::drop-down:hover {
+	background-color: rgb(38, 43, 85);
+}
+
+QComboBox::down-arrow {
+	
+	image: url(:/图标/下拉选择.png);
+width: 100px;
+height:25px;
+	
+}
+QComboBox::down-arrow:on { /* shift the arrow when popup is open */
+    top: 1px;
+    left: 1px;
+}
+QComboBox::drop-down:editable:on {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #D3D3D3, stop: 0.4 #D8D8D8,
+                                stop: 0.5 #DDDDDD, stop: 1.0 #E1E1E1);
+}
+QComboBox QAbstractItemView{
+outline: 0px solid gray;            
+border:0px solid #eeeeee;            
+color:rgb(145,151,163);
+selection-color:white;
+font-size:14px;
+font-family:Microsoft YaHei UI;            
+background-color:rgb(18,26,39);
+selection-background-color:rgb(33,41,54);
+}</string>
+                               </property>
+                               <property name="editable">
+                                <bool>false</bool>
+                               </property>
+                               <property name="iconSize">
+                                <size>
+                                 <width>9</width>
+                                 <height>9</height>
+                                </size>
+                               </property>
+                               <item>
+                                <property name="text">
+                                 <string>深色模式</string>
+                                </property>
+                               </item>
+                               <item>
+                                <property name="text">
+                                 <string>浅色模式</string>
+                                </property>
+                               </item>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item row="1" column="1">
+                        <widget class="QFrame" name="frame_theme_2">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>231</width>
+                           <height>101</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QFrame{
+ border:2px solid;
+	border-color: rgb(5, 32, 56);
+	background-color: rgb(36,38,58);
+border-radius:10px;
+}
+QComboBox QAbstractItemView{
+outline: 0px solid gray;            
+/*border:1px solid #eeeeee;*/            
+color:rgb(145,151,163);
+selection-color:white;
+font-size:14px;
+font-family:Microsoft YaHei UI;            
+background-color:rgb(18,26,39);
+selection-background-color:rgb(33,41,54);
+border-top-radius:0px;
+border-bottom-radius:10px;
+}</string>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                         <layout class="QVBoxLayout" name="verticalLayout_19">
+                          <item alignment="Qt::AlignLeft|Qt::AlignTop">
+                           <widget class="QLabel" name="label_label">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <family>Microsoft YaHei UI</family>
+                              <pointsize>12</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QLabel{
+border:none;
+color:#598FDC;
+}</string>
+                            </property>
+                            <property name="text">
+                             <string>动画说明</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item alignment="Qt::AlignBottom">
+                           <widget class="QFrame" name="frame_selecttheme_2">
+                            <property name="minimumSize">
+                             <size>
+                              <width>0</width>
+                              <height>0</height>
+                             </size>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QFrame{border:none;
+}</string>
+                            </property>
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                            <property name="lineWidth">
+                             <number>0</number>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_20">
+                             <property name="spacing">
+                              <number>0</number>
+                             </property>
+                             <property name="leftMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="topMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="rightMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="bottomMargin">
+                              <number>0</number>
+                             </property>
+                             <item>
+                              <widget class="QComboBox" name="comboBox_label">
+                               <property name="enabled">
+                                <bool>true</bool>
+                               </property>
+                               <property name="sizePolicy">
+                                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                 <horstretch>0</horstretch>
+                                 <verstretch>0</verstretch>
+                                </sizepolicy>
+                               </property>
+                               <property name="minimumSize">
+                                <size>
+                                 <width>103</width>
+                                 <height>41</height>
+                                </size>
+                               </property>
+                               <property name="font">
+                                <font>
+                                 <family>Microsoft YaHei UI</family>
+                                 <pointsize>10</pointsize>
+                                 <weight>75</weight>
+                                 <italic>false</italic>
+                                 <bold>true</bold>
+                                </font>
+                               </property>
+                               <property name="mouseTracking">
+                                <bool>false</bool>
+                               </property>
+                               <property name="tabletTracking">
+                                <bool>false</bool>
+                               </property>
+                               <property name="styleSheet">
+                                <string notr="true">
+QComboBox {
+    border: 0px solid;
+	border-bottom: 2px solid;
+	border-color: #598FDC;
+    border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+    padding: 1px 10px 1px 3px;
+    min-width: 6em;
+	background-color: rgb(57, 63, 103);
+	
+	color: rgb(255, 255, 255);
+	
+}
+
+QComboBox:on { /* shift the text when the popup opens */
+    padding-top: 3px;
+    padding-left: 4px;
+}
+QComboBox::drop-down {
+    /*subcontrol-origin: padding;*/
+    subcontrol-position: top right;
+    width: 40px;
+	height: 39px;
+	border: 0px solid;
+	
+    border-radius: 5px; /* same radius as the QComboBox */
+}
+QComboBox::drop-down:pressed,QComboBox::drop-down:hover {
+	background-color: rgb(38, 43, 85);
+}
+
+QComboBox::down-arrow {
+	
+	image: url(:/图标/下拉选择.png);
+width: 100px;
+height:25px;
+	
+}
+QComboBox::down-arrow:on { /* shift the arrow when popup is open */
+    top: 1px;
+    left: 1px;
+}
+QComboBox::drop-down:editable:on {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #D3D3D3, stop: 0.4 #D8D8D8,
+                                stop: 0.5 #DDDDDD, stop: 1.0 #E1E1E1);
+}
+QComboBox QAbstractItemView{
+outline: 0px solid gray;            
+border:0px solid #eeeeee;            
+color:rgb(145,151,163);
+selection-color:white;
+font-size:14px;
+font-family:Microsoft YaHei UI;            
+background-color:rgb(18,26,39);
+selection-background-color:rgb(33,41,54);
+}</string>
+                               </property>
+                               <property name="editable">
+                                <bool>false</bool>
+                               </property>
+                               <property name="iconSize">
+                                <size>
+                                 <width>9</width>
+                                 <height>9</height>
+                                </size>
+                               </property>
+                               <item>
+                                <property name="text">
+                                 <string>否</string>
+                                </property>
+                               </item>
+                               <item>
+                                <property name="text">
+                                 <string>是</string>
+                                </property>
+                               </item>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item row="1" column="2">
+                        <widget class="QFrame" name="frame_anifont_2">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>231</width>
+                           <height>101</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QFrame{
+ border:2px solid;
+	border-color: rgb(5, 32, 56);
+	background-color: rgb(36,38,58);
+border-radius:10px;
+}
+QComboBox QAbstractItemView{
+outline: 0px solid gray;            
+/*border:1px solid #eeeeee;*/            
+color:rgb(145,151,163);
+selection-color:white;
+font-size:14px;
+font-family:Microsoft YaHei UI;            
+background-color:rgb(18,26,39);
+selection-background-color:rgb(33,41,54);
+border-top-radius:0px;
+border-bottom-radius:10px;
+}</string>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                         <layout class="QVBoxLayout" name="verticalLayout_13">
+                          <item>
+                           <widget class="QLabel" name="label_anifont_2">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <family>Microsoft YaHei UI</family>
+                              <pointsize>12</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QLabel{
+border:none;
+color:#598FDC;
+}</string>
+                            </property>
+                            <property name="text">
+                             <string>动画字体颜色</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item alignment="Qt::AlignBottom">
+                           <widget class="QFrame" name="frame_selectanifont_2">
+                            <property name="minimumSize">
+                             <size>
+                              <width>0</width>
+                              <height>0</height>
+                             </size>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QFrame{border:none;
+}</string>
+                            </property>
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                            <property name="lineWidth">
+                             <number>0</number>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_18">
+                             <property name="spacing">
+                              <number>0</number>
+                             </property>
+                             <property name="leftMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="topMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="rightMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="bottomMargin">
+                              <number>0</number>
+                             </property>
+                             <item>
+                              <widget class="QComboBox" name="comboBox_fontcor">
+                               <property name="enabled">
+                                <bool>true</bool>
+                               </property>
+                               <property name="sizePolicy">
+                                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                 <horstretch>0</horstretch>
+                                 <verstretch>0</verstretch>
+                                </sizepolicy>
+                               </property>
+                               <property name="minimumSize">
+                                <size>
+                                 <width>103</width>
+                                 <height>41</height>
+                                </size>
+                               </property>
+                               <property name="font">
+                                <font>
+                                 <family>Microsoft YaHei UI</family>
+                                 <pointsize>10</pointsize>
+                                 <weight>75</weight>
+                                 <italic>false</italic>
+                                 <bold>true</bold>
+                                </font>
+                               </property>
+                               <property name="mouseTracking">
+                                <bool>false</bool>
+                               </property>
+                               <property name="tabletTracking">
+                                <bool>false</bool>
+                               </property>
+                               <property name="styleSheet">
+                                <string notr="true">
+QComboBox {
+    border: 0px solid;
+	border-bottom: 2px solid;
+	border-color: #598FDC;
+    border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+    padding: 1px 10px 1px 3px;
+    min-width: 6em;
+	background-color: rgb(57, 63, 103);
+	
+	color: rgb(255, 255, 255);
+	
+}
+
+QComboBox:on { /* shift the text when the popup opens */
+    padding-top: 3px;
+    padding-left: 4px;
+}
+QComboBox::drop-down {
+    /*subcontrol-origin: padding;*/
+    subcontrol-position: top right;
+    width: 40px;
+	height: 39px;
+	border: 0px solid;
+	
+    border-radius: 5px; /* same radius as the QComboBox */
+}
+QComboBox::drop-down:pressed,QComboBox::drop-down:hover {
+	background-color: rgb(38, 43, 85);
+}
+
+QComboBox::down-arrow {
+	
+	image: url(:/图标/下拉选择.png);
+width: 100px;
+height:25px;
+	
+}
+QComboBox::down-arrow:on { /* shift the arrow when popup is open */
+    top: 1px;
+    left: 1px;
+}
+QComboBox::drop-down:editable:on {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #D3D3D3, stop: 0.4 #D8D8D8,
+                                stop: 0.5 #DDDDDD, stop: 1.0 #E1E1E1);
+}
+QComboBox QAbstractItemView{
+outline: 0px solid gray;            
+border:0px solid #eeeeee;            
+color:rgb(145,151,163);
+selection-color:white;
+font-size:14px;
+font-family:Microsoft YaHei UI;            
+background-color:rgb(18,26,39);
+selection-background-color:rgb(33,41,54);
+}</string>
+                               </property>
+                               <property name="editable">
+                                <bool>false</bool>
+                               </property>
+                               <property name="iconSize">
+                                <size>
+                                 <width>9</width>
+                                 <height>9</height>
+                                </size>
+                               </property>
+                               <item>
+                                <property name="text">
+                                 <string>黑色</string>
+                                </property>
+                               </item>
+                               <item>
+                                <property name="text">
+                                 <string>红色</string>
+                                </property>
+                               </item>
+                               <item>
+                                <property name="text">
+                                 <string>绿色</string>
+                                </property>
+                               </item>
+                               <item>
+                                <property name="text">
+                                 <string>蓝色</string>
+                                </property>
+                               </item>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item row="2" column="1">
+                        <widget class="QFrame" name="frame_anifont_4">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>231</width>
+                           <height>101</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QFrame{
+ border:2px solid;
+	border-color: rgb(5, 32, 56);
+	background-color: rgb(36,38,58);
+border-radius:10px;
+}
+QComboBox QAbstractItemView{
+outline: 0px solid gray;            
+/*border:1px solid #eeeeee;*/            
+color:rgb(145,151,163);
+selection-color:white;
+font-size:14px;
+font-family:Microsoft YaHei UI;            
+background-color:rgb(18,26,39);
+selection-background-color:rgb(33,41,54);
+border-top-radius:0px;
+border-bottom-radius:10px;
+}</string>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                         <layout class="QVBoxLayout" name="verticalLayout_18">
+                          <item>
+                           <widget class="QLabel" name="label_anifont_4">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <family>Microsoft YaHei UI</family>
+                              <pointsize>12</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QLabel{
+border:none;
+color:#598FDC;
+}</string>
+                            </property>
+                            <property name="text">
+                             <string>节点形状</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item alignment="Qt::AlignBottom">
+                           <widget class="QFrame" name="frame_selectanifont_5">
+                            <property name="minimumSize">
+                             <size>
+                              <width>0</width>
+                              <height>0</height>
+                             </size>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QFrame{border:none;
+}</string>
+                            </property>
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                            <property name="lineWidth">
+                             <number>0</number>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_22">
+                             <property name="spacing">
+                              <number>0</number>
+                             </property>
+                             <property name="leftMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="topMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="rightMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="bottomMargin">
+                              <number>0</number>
+                             </property>
+                             <item>
+                              <widget class="QComboBox" name="comboBox_nodeshape">
+                               <property name="enabled">
+                                <bool>true</bool>
+                               </property>
+                               <property name="sizePolicy">
+                                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                 <horstretch>0</horstretch>
+                                 <verstretch>0</verstretch>
+                                </sizepolicy>
+                               </property>
+                               <property name="minimumSize">
+                                <size>
+                                 <width>103</width>
+                                 <height>41</height>
+                                </size>
+                               </property>
+                               <property name="font">
+                                <font>
+                                 <family>Microsoft YaHei UI</family>
+                                 <pointsize>10</pointsize>
+                                 <weight>75</weight>
+                                 <italic>false</italic>
+                                 <bold>true</bold>
+                                </font>
+                               </property>
+                               <property name="mouseTracking">
+                                <bool>false</bool>
+                               </property>
+                               <property name="tabletTracking">
+                                <bool>false</bool>
+                               </property>
+                               <property name="styleSheet">
+                                <string notr="true">
+QComboBox {
+    border: 0px solid;
+	border-bottom: 2px solid;
+	border-color: #598FDC;
+    border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+    padding: 1px 10px 1px 3px;
+    min-width: 6em;
+	background-color: rgb(57, 63, 103);
+	
+	color: rgb(255, 255, 255);
+	
+}
+
+QComboBox:on { /* shift the text when the popup opens */
+    padding-top: 3px;
+    padding-left: 4px;
+}
+QComboBox::drop-down {
+    /*subcontrol-origin: padding;*/
+    subcontrol-position: top right;
+    width: 40px;
+	height: 39px;
+	border: 0px solid;
+	
+    border-radius: 5px; /* same radius as the QComboBox */
+}
+QComboBox::drop-down:pressed,QComboBox::drop-down:hover {
+	background-color: rgb(38, 43, 85);
+}
+
+QComboBox::down-arrow {
+	
+	image: url(:/图标/下拉选择.png);
+width: 100px;
+height:25px;
+	
+}
+QComboBox::down-arrow:on { /* shift the arrow when popup is open */
+    top: 1px;
+    left: 1px;
+}
+QComboBox::drop-down:editable:on {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #D3D3D3, stop: 0.4 #D8D8D8,
+                                stop: 0.5 #DDDDDD, stop: 1.0 #E1E1E1);
+}
+QComboBox QAbstractItemView{
+outline: 0px solid gray;            
+border:0px solid #eeeeee;            
+color:rgb(145,151,163);
+selection-color:white;
+font-size:14px;
+font-family:Microsoft YaHei UI;            
+background-color:rgb(18,26,39);
+selection-background-color:rgb(33,41,54);
+}</string>
+                               </property>
+                               <property name="editable">
+                                <bool>false</bool>
+                               </property>
+                               <property name="currentIndex">
+                                <number>0</number>
+                               </property>
+                               <property name="iconSize">
+                                <size>
+                                 <width>9</width>
+                                 <height>9</height>
+                                </size>
+                               </property>
+                               <item>
+                                <property name="text">
+                                 <string>圆形</string>
+                                </property>
+                               </item>
+                               <item>
+                                <property name="text">
+                                 <string>方形</string>
+                                </property>
+                               </item>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item row="2" column="2">
+                        <widget class="QFrame" name="frame_anifont_3">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>231</width>
+                           <height>101</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QFrame{
+ border:2px solid;
+	border-color: rgb(5, 32, 56);
+	background-color: rgb(36,38,58);
+border-radius:10px;
+}
+QComboBox QAbstractItemView{
+outline: 0px solid gray;            
+/*border:1px solid #eeeeee;*/            
+color:rgb(145,151,163);
+selection-color:white;
+font-size:14px;
+font-family:Microsoft YaHei UI;            
+background-color:rgb(18,26,39);
+selection-background-color:rgb(33,41,54);
+border-top-radius:0px;
+border-bottom-radius:10px;
+}</string>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                         <layout class="QVBoxLayout" name="verticalLayout_17">
+                          <item>
+                           <widget class="QLabel" name="label_anifont_3">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <family>Microsoft YaHei UI</family>
+                              <pointsize>12</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QLabel{
+border:none;
+color:#598FDC;
+}</string>
+                            </property>
+                            <property name="text">
+                             <string>节点颜色</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item alignment="Qt::AlignBottom">
+                           <widget class="QFrame" name="frame_selectanifont_3">
+                            <property name="minimumSize">
+                             <size>
+                              <width>0</width>
+                              <height>0</height>
+                             </size>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QFrame{border:none;
+}</string>
+                            </property>
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                            <property name="lineWidth">
+                             <number>0</number>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_19">
+                             <property name="spacing">
+                              <number>0</number>
+                             </property>
+                             <property name="leftMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="topMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="rightMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="bottomMargin">
+                              <number>0</number>
+                             </property>
+                             <item>
+                              <widget class="QComboBox" name="comboBox_nodecor">
+                               <property name="enabled">
+                                <bool>true</bool>
+                               </property>
+                               <property name="sizePolicy">
+                                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                 <horstretch>0</horstretch>
+                                 <verstretch>0</verstretch>
+                                </sizepolicy>
+                               </property>
+                               <property name="minimumSize">
+                                <size>
+                                 <width>103</width>
+                                 <height>41</height>
+                                </size>
+                               </property>
+                               <property name="font">
+                                <font>
+                                 <family>Microsoft YaHei UI</family>
+                                 <pointsize>10</pointsize>
+                                 <weight>75</weight>
+                                 <italic>false</italic>
+                                 <bold>true</bold>
+                                </font>
+                               </property>
+                               <property name="mouseTracking">
+                                <bool>false</bool>
+                               </property>
+                               <property name="tabletTracking">
+                                <bool>false</bool>
+                               </property>
+                               <property name="styleSheet">
+                                <string notr="true">
+QComboBox {
+    border: 0px solid;
+	border-bottom: 2px solid;
+	border-color: #598FDC;
+    border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+    padding: 1px 10px 1px 3px;
+    min-width: 6em;
+	background-color: rgb(57, 63, 103);
+	
+	color: rgb(255, 255, 255);
+	
+}
+
+QComboBox:on { /* shift the text when the popup opens */
+    padding-top: 3px;
+    padding-left: 4px;
+}
+QComboBox::drop-down {
+    /*subcontrol-origin: padding;*/
+    subcontrol-position: top right;
+    width: 40px;
+	height: 39px;
+	border: 0px solid;
+	
+    border-radius: 5px; /* same radius as the QComboBox */
+}
+QComboBox::drop-down:pressed,QComboBox::drop-down:hover {
+	background-color: rgb(38, 43, 85);
+}
+
+QComboBox::down-arrow {
+	
+	image: url(:/图标/下拉选择.png);
+width: 100px;
+height:25px;
+	
+}
+QComboBox::down-arrow:on { /* shift the arrow when popup is open */
+    top: 1px;
+    left: 1px;
+}
+QComboBox::drop-down:editable:on {
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #D3D3D3, stop: 0.4 #D8D8D8,
+                                stop: 0.5 #DDDDDD, stop: 1.0 #E1E1E1);
+}
+QComboBox QAbstractItemView{
+outline: 0px solid gray;            
+border:0px solid #eeeeee;            
+color:rgb(145,151,163);
+selection-color:white;
+font-size:14px;
+font-family:Microsoft YaHei UI;            
+background-color:rgb(18,26,39);
+selection-background-color:rgb(33,41,54);
+}</string>
+                               </property>
+                               <property name="editable">
+                                <bool>false</bool>
+                               </property>
+                               <property name="iconSize">
+                                <size>
+                                 <width>9</width>
+                                 <height>9</height>
+                                </size>
+                               </property>
+                               <item>
+                                <property name="text">
+                                 <string>黑色</string>
+                                </property>
+                               </item>
+                               <item>
+                                <property name="text">
+                                 <string>红色</string>
+                                </property>
+                               </item>
+                               <item>
+                                <property name="text">
+                                 <string>绿色</string>
+                                </property>
+                               </item>
+                               <item>
+                                <property name="text">
+                                 <string>蓝色</string>
+                                </property>
+                               </item>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item>
+                      <layout class="QHBoxLayout" name="horizontalLayout_3">
+                       <property name="spacing">
+                        <number>30</number>
+                       </property>
+                       <property name="leftMargin">
+                        <number>10</number>
+                       </property>
+                       <property name="topMargin">
+                        <number>20</number>
+                       </property>
+                       <property name="bottomMargin">
+                        <number>28</number>
+                       </property>
+                       <item>
+                        <widget class="QFrame" name="frame_anifont">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>231</width>
+                           <height>101</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QFrame{
+ border:2px solid;
+	border-color: rgb(5, 32, 56);
+	background-color: rgb(36,38,58);
+border-radius:10px;
+}
+QComboBox QAbstractItemView{
+outline: 0px solid gray;            
+/*border:1px solid #eeeeee;*/            
+color:rgb(145,151,163);
+selection-color:white;
+font-size:14px;
+font-family:Microsoft YaHei UI;            
+background-color:rgb(18,26,39);
+selection-background-color:rgb(33,41,54);
+border-top-radius:0px;
+border-bottom-radius:10px;
+}</string>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                         <layout class="QVBoxLayout" name="verticalLayout_11">
+                          <item>
+                           <widget class="QLabel" name="label_anifont">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <family>Microsoft YaHei UI</family>
+                              <pointsize>12</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QLabel{
+border:none;
+color:#598FDC;
+}</string>
+                            </property>
+                            <property name="text">
+                             <string>动画节点大小</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item alignment="Qt::AlignBottom">
+                           <widget class="QFrame" name="frame_selectanifont">
+                            <property name="minimumSize">
+                             <size>
+                              <width>0</width>
+                              <height>0</height>
+                             </size>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QFrame{border:none;
+}</string>
+                            </property>
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                            <property name="lineWidth">
+                             <number>0</number>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_13">
+                             <property name="spacing">
+                              <number>0</number>
+                             </property>
+                             <property name="leftMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="topMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="rightMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="bottomMargin">
+                              <number>0</number>
+                             </property>
+                             <item>
+                              <widget class="QLineEdit" name="lineEdit_nodesize">
+                               <property name="sizePolicy">
+                                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                                 <horstretch>0</horstretch>
+                                 <verstretch>0</verstretch>
+                                </sizepolicy>
+                               </property>
+                               <property name="minimumSize">
+                                <size>
+                                 <width>103</width>
+                                 <height>41</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>145</width>
+                                 <height>16777215</height>
+                                </size>
+                               </property>
+                               <property name="font">
+                                <font>
+                                 <family>Microsoft YaHei UI</family>
+                                 <pointsize>10</pointsize>
+                                 <weight>75</weight>
+                                 <bold>true</bold>
+                                </font>
+                               </property>
+                               <property name="styleSheet">
+                                <string notr="true">QLineEdit{ border: 0px solid;
+	border-bottom: 2px solid;
+	border-color: #598FDC;
+    border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+    padding: 1px 10px 1px 3px;
+    min-width: 6em;
+	background-color: rgb(57, 63, 103);
+	
+	color: rgb(255, 255, 255);}</string>
+                               </property>
+                               <property name="text">
+                                <string>60</string>
+                               </property>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QFrame" name="frame_anifont_6">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>231</width>
+                           <height>101</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QFrame{
+ border:2px solid;
+	border-color: rgb(5, 32, 56);
+	background-color: rgb(36,38,58);
+border-radius:10px;
+}
+QComboBox QAbstractItemView{
+outline: 0px solid gray;            
+/*border:1px solid #eeeeee;*/            
+color:rgb(145,151,163);
+selection-color:white;
+font-size:14px;
+font-family:Microsoft YaHei UI;            
+background-color:rgb(18,26,39);
+selection-background-color:rgb(33,41,54);
+border-top-radius:0px;
+border-bottom-radius:10px;
+}</string>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                         <layout class="QVBoxLayout" name="verticalLayout_23">
+                          <item alignment="Qt::AlignTop">
+                           <widget class="QLabel" name="label_anifont_6">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <family>Microsoft YaHei UI</family>
+                              <pointsize>12</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QLabel{
+border:none;
+color:#598FDC;
+}</string>
+                            </property>
+                            <property name="text">
+                             <string>动画速度</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item alignment="Qt::AlignBottom">
+                           <widget class="QFrame" name="frame_selectanifont_4">
+                            <property name="minimumSize">
+                             <size>
+                              <width>0</width>
+                              <height>0</height>
+                             </size>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QFrame{border:none;
+}</string>
+                            </property>
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                            <property name="lineWidth">
+                             <number>0</number>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_21">
+                             <property name="spacing">
+                              <number>0</number>
+                             </property>
+                             <property name="leftMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="topMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="rightMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="bottomMargin">
+                              <number>0</number>
+                             </property>
+                             <item>
+                              <widget class="QLineEdit" name="lineEdit_vespeed">
+                               <property name="sizePolicy">
+                                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                                 <horstretch>0</horstretch>
+                                 <verstretch>0</verstretch>
+                                </sizepolicy>
+                               </property>
+                               <property name="minimumSize">
+                                <size>
+                                 <width>103</width>
+                                 <height>41</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>145</width>
+                                 <height>16777215</height>
+                                </size>
+                               </property>
+                               <property name="font">
+                                <font>
+                                 <family>Microsoft YaHei UI</family>
+                                 <pointsize>10</pointsize>
+                                 <weight>75</weight>
+                                 <bold>true</bold>
+                                </font>
+                               </property>
+                               <property name="styleSheet">
+                                <string notr="true">QLineEdit{ border: 0px solid;
+	border-bottom: 2px solid;
+	border-color: #598FDC;
+    border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+    padding: 1px 10px 1px 3px;
+    min-width: 6em;
+	background-color: rgb(57, 63, 103);
+	
+	color: rgb(255, 255, 255);}</string>
+                               </property>
+                               <property name="text">
+                                <string>50</string>
+                               </property>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                       <item>
+                        <widget class="QFrame" name="frame_anifont_5">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="minimumSize">
+                          <size>
+                           <width>231</width>
+                           <height>101</height>
+                          </size>
+                         </property>
+                         <property name="styleSheet">
+                          <string notr="true">QFrame{
+ border:2px solid;
+	border-color: rgb(5, 32, 56);
+	background-color: rgb(36,38,58);
+border-radius:10px;
+}
+QComboBox QAbstractItemView{
+outline: 0px solid gray;            
+/*border:1px solid #eeeeee;*/            
+color:rgb(145,151,163);
+selection-color:white;
+font-size:14px;
+font-family:Microsoft YaHei UI;            
+background-color:rgb(18,26,39);
+selection-background-color:rgb(33,41,54);
+border-top-radius:0px;
+border-bottom-radius:10px;
+}</string>
+                         </property>
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
+                         </property>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
+                         </property>
+                         <layout class="QVBoxLayout" name="verticalLayout_12">
+                          <item>
+                           <widget class="QLabel" name="label_anifont_5">
+                            <property name="sizePolicy">
+                             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                              <horstretch>0</horstretch>
+                              <verstretch>0</verstretch>
+                             </sizepolicy>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <family>Microsoft YaHei UI</family>
+                              <pointsize>12</pointsize>
+                              <weight>75</weight>
+                              <bold>true</bold>
+                             </font>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QLabel{
+border:none;
+color:#598FDC;
+}</string>
+                            </property>
+                            <property name="text">
+                             <string>文件保存位置</string>
+                            </property>
+                           </widget>
+                          </item>
+                          <item alignment="Qt::AlignBottom">
+                           <widget class="QFrame" name="frame_selectanifont_6">
+                            <property name="minimumSize">
+                             <size>
+                              <width>0</width>
+                              <height>0</height>
+                             </size>
+                            </property>
+                            <property name="styleSheet">
+                             <string notr="true">QFrame{border:none;
+}</string>
+                            </property>
+                            <property name="frameShape">
+                             <enum>QFrame::StyledPanel</enum>
+                            </property>
+                            <property name="frameShadow">
+                             <enum>QFrame::Raised</enum>
+                            </property>
+                            <property name="lineWidth">
+                             <number>0</number>
+                            </property>
+                            <layout class="QHBoxLayout" name="horizontalLayout_23">
+                             <property name="spacing">
+                              <number>0</number>
+                             </property>
+                             <property name="leftMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="topMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="rightMargin">
+                              <number>0</number>
+                             </property>
+                             <property name="bottomMargin">
+                              <number>0</number>
+                             </property>
+                             <item>
+                              <widget class="QTextBrowser" name="fileTextBrowser"/>
+                             </item>
+                             <item>
+                              <widget class="QPushButton" name="pushButtonFile">
+                               <property name="text">
+                                <string>选</string>
+                               </property>
+                              </widget>
+                             </item>
+                            </layout>
+                           </widget>
+                          </item>
+                         </layout>
+                        </widget>
+                       </item>
+                      </layout>
+                     </item>
+                     <item alignment="Qt::AlignHCenter|Qt::AlignBottom">
+                      <widget class="QPushButton" name="pushButton_check">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="minimumSize">
+                        <size>
+                         <width>65</width>
+                         <height>40</height>
+                        </size>
+                       </property>
+                       <property name="font">
+                        <font>
+                         <family>Microsoft YaHei UI</family>
+                         <pointsize>10</pointsize>
+                         <weight>75</weight>
+                         <bold>true</bold>
+                        </font>
+                       </property>
+                       <property name="styleSheet">
+                        <string notr="true">QPushButton {	
+	border: 2px solid;
+	border-color: #598FDC;
+	border-radius: 6px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(57, 63, 103);
+}
+QPushButton:hover {
+	background-color: rgb(38, 43, 85);
+}
+QPushButton:checked{
+    background-color: rgb(33, 33, 33);
+}</string>
+                       </property>
+                       <property name="text">
+                        <string>确认</string>
+                       </property>
+                       <property name="checkable">
+                        <bool>true</bool>
+                       </property>
+                       <property name="checked">
+                        <bool>false</bool>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_2">
+                <property name="minimumSize">
+                 <size>
+                  <width>14</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QFrame{
+	
+	border:none;
+}</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_11">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QFrame" name="frame_3">
+                <property name="minimumSize">
+                 <size>
+                  <width>20</width>
+                  <height>14</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QFrame{
+	
+	border:none;
+}</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_6">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>14</width>
+                  <height>14</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QFrame{
+	
+	border:none;
+}</string>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../res1/res.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_close</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1190</x>
+     <y>38</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>976</x>
+     <y>4</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_min</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>showMinimized()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1122</x>
+     <y>38</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>830</x>
+     <y>5</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

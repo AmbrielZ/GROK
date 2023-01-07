@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="新前缀">
+    <file>logo.png</file>
+    <file>背景.png</file>
+  </qresource>
+  <qresource prefix="图标">
+    <file>缩小.png</file>
+    <file>24gf-pause2.png</file>
+    <file>开始1.png</file>
+    <file>快进.png</file>
+    <file>快退.png</file>
+    <file>搜索 (1).png</file>
+    <file>显示.png</file>
+    <file>设置1.png</file>
+    <file>设置2.png</file>
+    <file>24.全屏_最大化.png</file>
+    <file>关闭.png</file>
+    <file>最小化2-02.png</file>
+    <file>编辑.png</file>
+    <file>下拉选择.png</file>
+  </qresource>
+</RCC>
